@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Budgetting app</title>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="" />
+        <meta name="author" content="Julien Sebag" />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:locale" content="en_GB" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/style.min.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Balance</h1>
+            <span id="balance">70$</span>
+        </header>
+
+        <section>
+            <h3>Breakdown</h3>
+
+            <ul>
+                <li class="income">
+                    <em>Description</em>
+                    <span>+</span>
+                    <strong>10$</strong>
+                </li>
+
+                <li class="expense">
+                    <em>Description</em>
+                    <span>-</span>
+                    <strong>10$</strong>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <input type="number" placeholder="0$" />
+
+            <input type="text" placeholder="Description" id="elementDescription" />
+
+            <select name="" id="">
+                <option value="income">+ Income</option>
+                <option value="expense">- Expense</option>
+            </select>
+
+            <button>Add</button>
+        </footer>
+
+        <!-- JS -->
+        <script src="/js/script.js"></script>
+    </body>
+</html>
