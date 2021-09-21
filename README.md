@@ -1,3 +1,5 @@
-# Base SCSS projects
+# Ironhack webinar "Build a budgetting app with JavaScript"
 
-To compile automatically, get this VSC plugin: [Live Sass compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
+Code for the webinar "Build a budgetting app with JavaScript" from Ironhack
+
+Link to event: [https://www.crowdcast.io/e/english-build-a-budget](https://www.crowdcast.io/e/english-build-a-budget)
